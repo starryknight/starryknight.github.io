@@ -1,0 +1,22 @@
+[
+  {
+      "model": "main.article",
+      "pk": 1,
+      "fields": {
+        "image": "https://cdn.thecollegeinvestor.com/wp-content/uploads/2017/12/Bitcoin-Cash-300x300.png",
+        "link": "https://media.npr.org/assets/img/2016/09/06/kishi-bashi-pr-by-shervin-lainez_wide-d5ac9129be570d7546057c16359d403f78620b55-s1100-c15.jpg",
+        "subject": "Bitcoin Today",
+        "content": "Oh once I met an elephant on a sunny day"
+      }
+    },
+    {
+      "model": "main.article",
+      "pk": 2,
+      "fields": {
+        "image": "https://cdn.thecollegeinvestor.com/wp-content/uploads/2017/12/Bitcoin-Cash-300x300.png",
+        "link": "https://media.npr.org/assets/img/2016/09/06/kishi-bashi-pr-by-shervin-lainez_wide-d5ac9129be570d7546057c16359d403f78620b55-s1100-c15.jpg",
+        "subject": "Bitcoin Tomorrow",
+        "content": "We have been asked to do things with utmost widom in the right place"
+      }
+    }
+]

@@ -1,0 +1,26 @@
+[
+  {
+      "model": "main.comment",
+      "pk": 1,
+      "fields": {
+        "comments": "You are awesome",
+        "article": 1
+      }
+    },
+  {
+      "model": "main.comment",
+      "pk": 2,
+      "fields": {
+        "comments": "i'm so happy",
+        "article": 1
+      }
+    },
+  {
+      "model": "main.comment",
+      "pk": 3,
+      "fields": {
+        "comments": "I'm so surprised",
+        "article": 2
+      }
+    }
+]
