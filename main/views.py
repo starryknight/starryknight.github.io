@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from rest_framework import viewsets
-from .serializers import CommentSerializer, ArticleSerializer, ProjectSerializer
+from .serializers import ArticleSerializer, CommentSerializer, ProjectSerializer
 from .models import Comment, Article, Project
 # Create your views here.
 
