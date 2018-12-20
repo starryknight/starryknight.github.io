@@ -8,6 +8,9 @@ class CommentSerializer(serializers.ModelSerializer):
         fields = ('id', 'comments', 'article')
 
 class ArticleSerializer(serializers.ModelSerializer):
+
+    comments = CommentSerializer(many=True, read_only=True)
+
     class Meta:
         model = Article
         fields = ('id', 'image', 'link', 'subject', 'content', 'comments')

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Navbar, Nav, NavItem, NavDropdown, MenuItem } from 'react-bootstrap'
+import { Navbar, FormControl, Button, Nav, NavItem, NavDropdown, MenuItem } from 'react-bootstrap'
 
 class NavBar extends Component {
     render() {
@@ -26,6 +26,10 @@ class NavBar extends Component {
         <MenuItem divider />
         <MenuItem eventKey={3.3}>Separated link</MenuItem>
       </NavDropdown>
+      <form>
+          <input type="text"></input>
+          <Button type="submit">Search</Button>
+      </form>
     </Nav>
     <Nav pullRight>
       <NavItem eventKey={1} href="#">

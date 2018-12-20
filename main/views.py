@@ -15,3 +15,8 @@ class CommentView(viewsets.ModelViewSet):
 class ProjectView(viewsets.ModelViewSet):
     queryset = Project.objects.all()
     serializer_class = ProjectSerializer
+
+    def create(self, request, *args, **kwargs):
+        project_data = request.data
+        print(project_data)
+        return project_data
